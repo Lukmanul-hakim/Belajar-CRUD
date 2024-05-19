@@ -69,7 +69,7 @@ if (isset($_POST["submit"])) {
             </li>
             <li>
                 <label for="Hasil"> Hasil : </label> <!-- Label untuk input hasil project -->
-                <img src="image/<?= $mhs["Hasil"] ?>" width="40">
+                <img src="image/<?= $myproject["Hasil"] ?>" width="40">
                 <input type="file" name="Hasil" id="Hasil"  value="<?= $myproject["Hasil"] ?>"> <!-- Input file untuk hasil project yang sudah diisi dengan nilai sebelumnya -->
             </li>
            
