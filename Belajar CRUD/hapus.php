@@ -15,7 +15,7 @@ if (hapus($id) > 0) {
     // Jika data gagal dihapus, tampilkan pesan gagal dan arahkan ke halaman index.php
     echo "
     <script>
-        alert('data gagal ditambahkan');
+        alert('data gagal dihapus');
         document.location.href = 'index.php';
     </script>
 ";
